@@ -1,10 +1,6 @@
 {
 	"compilerOptions": {
-		"lib": [
-			"dom",
-			"dom.iterable",
-			"esnext"
-		],
+		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
 		"skipLibCheck": true,
 		"strict": true,
@@ -22,60 +18,22 @@
 			}
 		],
 		"paths": {
-			"@component/*": [
-				"./src/components/*"
-			],
-			"@partial/*": [
-				"./src/components/partials/*"
-			],
-			"@container/*": [
-				"./src/components/containers/*"
-			],
-			"@constant/*": [
-				"./src/utils/constants/*"
-			],
-			"@class/*": [
-				"./src/utils/classes/*"
-			],
-			"@lib/*": [
-				"./src/utils/libraries/*"
-			],
-			"@hook/*": [
-				"./src/utils/hooks/*"
-			],
-			"@data/*": [
-				"./src/utils/constants/data*"
-			],
-			"@utils/*": [
-				"./src/utils/*"
-			],
-			"@config/*": [
-				"./src/utils/configs/*"
-			],
-			"@image/*": [
-				"./public/images/*"
-			],
-			"@json/*": [
-				"./public/jsons/*"
-			],
-			"@style/*": [
-				"./public/styles/*"
-			],
-			"@locale/*": [
-				"./public/locales/*"
-			]
+			"@component/*": ["./src/components/*"],
+			"@partial/*": ["./src/components/partials/*"],
+			"@container/*": ["./src/components/containers/*"],
+			"@constant/*": ["./src/utils/constants/*"],
+			"@class/*": ["./src/utils/classes/*"],
+			"@lib/*": ["./src/utils/libraries/*"],
+			"@hook/*": ["./src/utils/hooks/*"],
+			"@data/*": ["./src/utils/constants/data*"],
+			"@utils/*": ["./src/utils/*"],
+			"@config/*": ["./src/utils/configs/*"],
+			"@image/*": ["./public/images/*"],
+			"@json/*": ["./public/jsons/*"],
+			"@style/*": ["./public/styles/*"],
+			"@locale/*": ["./public/locales/*"]
 		}
 	},
-	"include": [
-		"next-env.d.ts",
-		"**/*.ts",
-		"**/*.tsx",
-		".next/types/**/*.ts",
-		"dist/types/**/*.ts",
-		"src/components/containers/general/Map.tsx "
-, "src/utils/classes/card.ts"	],
-	"exclude": [
-		"node_modules",
-		".next"
-	]
+	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "dist/types/**/*.ts", "src/components/containers/general/Map.tsx ", "src/utils/classes/card.ts"],
+	"exclude": ["node_modules", ".next"]
 }

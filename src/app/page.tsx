@@ -29,7 +29,15 @@ export default function Home() {
 				<CustomHosting></CustomHosting>
 				<MostPopularBlogPosts></MostPopularBlogPosts>
 				{premierVPSSections.map((section: any, index: number) => (
-					<PremierVPS key={index} title={section.title} subTitle={t(`premierVPS.${index}.subtitle`)} text={t(`premierVPS.${index}.paragraph`)} image={section.image} side={section.side} link={section.link}></PremierVPS>
+					<PremierVPS
+						key={index}
+						title={section.title}
+						subTitle={t(`premierVPS.${index}.subtitle`)}
+						text={t(`premierVPS.${index}.paragraph`)}
+						image={section.image}
+						side={section.side}
+						link={section.link}
+					></PremierVPS>
 				))}
 				<Faq></Faq>
 			</StyledComponent>

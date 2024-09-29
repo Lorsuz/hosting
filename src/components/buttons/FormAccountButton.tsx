@@ -20,13 +20,14 @@ const StyledComponent = styled.div`
 		padding: 17.5px 0px 19.748px 0px;
 		width: 100%;
 		border-radius: 80px;
-		background: #00ff19;  &:hover { background: #03C216; } 
+		background: #00ff19;
+		&:hover {
+			background: #03c216;
+		}
 		box-shadow: 0px 0px 25px 0px rgba(0, 255, 25, 0.05);
-		color: #0c1a11; 
+		color: #0c1a11;
 		font-size: 16px;
-		font-weight: 700; 
-		
+		font-weight: 700;
 	}
-
 `;
 export default FormAccountButton;

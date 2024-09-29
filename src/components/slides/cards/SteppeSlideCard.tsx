@@ -19,7 +19,7 @@ const SlideCard = () => {
 
 		function appendNewCard() {
 			const card = new Card({
-				imageUrl: urls[cardCount % 5 ],
+				imageUrl: urls[cardCount % 5],
 				onDismiss: appendNewCard
 			});
 			swiper.append(card.element);
@@ -43,7 +43,6 @@ const SlideCard = () => {
 	);
 };
 const StyledComponent = styled.section`
-
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -61,7 +60,7 @@ const StyledComponent = styled.section`
 		perspective-origin: center 50%;
 		transform-style: preserve-3d;
 		position: relative;
-		}
+	}
 
 	.card {
 		width: 100%;
@@ -104,7 +103,7 @@ const StyledComponent = styled.section`
 				list-style: circle;
 				list-style-type: disc;
 				list-style-position: inside;
-				margin: 20px 0; 
+				margin: 20px 0;
 			}
 		}
 	}

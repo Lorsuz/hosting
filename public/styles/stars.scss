@@ -10,7 +10,9 @@ $time-4: 200s;
 	$val: 0px 0px $color-particle;
 
 	@for $i from 1 through $max {
-		$val: #{$val}, random($spacing)+px random($spacing)+px $color-particle;
+		$val:
+			#{$val},
+			random($spacing) + px random($spacing) + px $color-particle;
 	}
 
 	@return $val;
@@ -35,7 +37,7 @@ $time-4: 200s;
 	}
 
 	.particle:after {
-		content: "";
+		content: '';
 		position: absolute;
 		top: $spacing;
 	}

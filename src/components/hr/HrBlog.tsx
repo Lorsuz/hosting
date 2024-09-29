@@ -9,7 +9,7 @@ interface HrBlogProps {
 	grid?: string;
 }
 
-const HrBlog: React.FC<HrBlogProps> = ({ align = 'end', link = '/', text = '', width = '100', grid='2/12' }) => {
+const HrBlog: React.FC<HrBlogProps> = ({ align = 'end', link = '/', text = '', width = '100', grid = '2/12' }) => {
 	return (
 		<StyledComponent $align={align} $width={width} $grid={grid}>
 			{text !== '' && <Link href={link}>{text}</Link>}
@@ -17,7 +17,7 @@ const HrBlog: React.FC<HrBlogProps> = ({ align = 'end', link = '/', text = '', w
 		</StyledComponent>
 	);
 };
-const StyledComponent = styled.div<{ $align: string; $width: string, $grid: string }>`
+const StyledComponent = styled.div<{ $align: string; $width: string; $grid: string }>`
 	width: ${({ $width }) => $width}%;
 	margin: 20px auto;
 	grid-column: ${({ $grid }) => $grid};

@@ -5,15 +5,14 @@
 	--black-color: #000000;
 	--bg-color: #010901;
 	--secondary-dark-color: #020903;
-	--green-color: #00FF1A;
-	--light-green-color: #00FF38;
+	--green-color: #00ff1a;
+	--light-green-color: #00ff38;
 	--dark-green-color: rgb(0, 186, 40);
-	--gray-color: #C2C2C2;
-	--white-color-3: #EDEFF2;
-	--white-color-2: #F3F6F4;
-	--white-color-1: #F6F6F6;
-	--white-color: #FFFFFF;
-
+	--gray-color: #c2c2c2;
+	--white-color-3: #edeff2;
+	--white-color-2: #f3f6f4;
+	--white-color-1: #f6f6f6;
+	--white-color: #ffffff;
 }
 
 button {
@@ -46,7 +45,6 @@ button {
 	-webkit-appearance: none;
 	appearance: none;
 	// outline: 1px dotted white;
-
 }
 
 body {
@@ -78,7 +76,6 @@ body {
 			padding: 100px 0;
 		}
 	}
-
 
 	> header,
 	> main > section,

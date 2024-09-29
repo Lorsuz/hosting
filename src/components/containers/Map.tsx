@@ -8,12 +8,11 @@ import malaysia from '@image/site/malaysia.png';
 import MapChart from '@component/maps/MapChart';
 import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'; 
-import 'swiper/css/navigation'; 
-import 'swiper/css/pagination'; 
-import 'swiper/css/autoplay'; 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
-
 
 const Map = () => {
 	const { t } = useTranslation();
@@ -27,12 +26,10 @@ const Map = () => {
 					<MapChart></MapChart>
 				</div>
 				<Swiper
-					
-
 					spaceBetween={0}
 					slidesPerView={2}
 					loop={true}
-					autoplay={{delay: 1000}}
+					autoplay={{ delay: 1000 }}
 					breakpoints={{
 						600: {
 							slidesPerView: 3,
@@ -72,8 +69,7 @@ const Map = () => {
 						<span>{t('dictionary.ukraine')}</span>
 						<div className='dot'></div>
 					</SwiperSlide>
-					</Swiper>
-
+				</Swiper>
 			</div>
 		</StyledComponent>
 	);

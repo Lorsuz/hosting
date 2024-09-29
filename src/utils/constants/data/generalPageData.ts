@@ -22,7 +22,6 @@ export const premierVPSSections = [
 		image: GameHostingCharacter,
 		side: 'inverted',
 		link: '/game-host'
-
 	},
 	{
 		title: 'cPanel hosting',
@@ -31,7 +30,6 @@ export const premierVPSSections = [
 		image: CpanelCat,
 		side: 'default',
 		link: '/c-panel'
-
 	}
 ];
 
@@ -42,7 +40,6 @@ export const cardsPrices = [
 		image: CpuCloudVPS,
 		price: 99.99,
 		link: '/cloud-vps'
-
 	},
 	{
 		title: 'Game Hosting',
@@ -50,7 +47,6 @@ export const cardsPrices = [
 		image: CastelGameHosting,
 		price: 99.99,
 		link: '/game-host'
-
 	},
 	{
 		title: 'cPanel',
@@ -68,29 +64,31 @@ export const cardsPricesCpuCloudVPS = [
 		image: CpuCloudVPS,
 		price: 99.99,
 		link: ''
-	}, {
-		title: 'Cloud VPS',
-		text: 'Scalable and Secure Hosting Solution',
-		image: CpuCloudVPS,
-		price: 99.99,
-		link: ''
-	}, {
-		title: 'Cloud VPS',
-		text: 'Scalable and Secure Hosting Solution',
-		image: CpuCloudVPS,
-		price: 99.99,
-		link: ''
-	}, {
+	},
+	{
 		title: 'Cloud VPS',
 		text: 'Scalable and Secure Hosting Solution',
 		image: CpuCloudVPS,
 		price: 99.99,
 		link: ''
 	},
+	{
+		title: 'Cloud VPS',
+		text: 'Scalable and Secure Hosting Solution',
+		image: CpuCloudVPS,
+		price: 99.99,
+		link: ''
+	},
+	{
+		title: 'Cloud VPS',
+		text: 'Scalable and Secure Hosting Solution',
+		image: CpuCloudVPS,
+		price: 99.99,
+		link: ''
+	}
 ];
 
 export const cardsPricesCastelGameHosting = [
-
 	{
 		title: 'Game Hosting',
 		text: 'High-Performance Servers',
@@ -118,11 +116,10 @@ export const cardsPricesCastelGameHosting = [
 		image: CastelGameHosting,
 		price: 99.99,
 		link: ''
-	},
+	}
 ];
 
 export const cardsPricesCpanelHost = [
-
 	{
 		title: 'cPanel',
 		text: 'Easy Website Management',
@@ -150,7 +147,5 @@ export const cardsPricesCpanelHost = [
 		image: CpanelHost,
 		price: 99.99,
 		link: ''
-	},
-
+	}
 ];
-

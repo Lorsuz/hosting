@@ -70,7 +70,7 @@ const StyledComponent = styled.section`
 	> aside {
 		border-radius: 0px 20px 20px 0px;
 		border: 1px solid #0e1f12;
-		border-left:none;
+		border-left: none;
 		background: #000901;
 		grid-column: 1;
 		padding: 100px 15px;
@@ -97,7 +97,7 @@ const StyledComponent = styled.section`
 					display: flex;
 					align-items: center;
 					width: 100%;
-					gap:10px;
+					gap: 10px;
 					padding: 10px 10px;
 					.icon {
 						opacity: 0.25;

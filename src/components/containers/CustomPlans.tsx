@@ -5,7 +5,6 @@ import InputRange from '@component/forms/fields/InputRange';
 import { FaShoppingBag } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 
-
 const CustomPlans = () => {
 	const { t } = useTranslation();
 
@@ -185,14 +184,13 @@ const StyledComponent = styled.section`
 				}
 				&.take {
 					background: #00ff1a;
-					.icon{
-						svg{
+					.icon {
+						svg {
 							fill: #010901;
 						}
 					}
-					span{
+					span {
 						color: #010901;
-
 					}
 				}
 				&.config {

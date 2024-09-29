@@ -13,14 +13,14 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 const Header = () => {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
 	const [windowWidth, setWindowWidth] = useState<number | null>(null);
-
+	windowWidth;
 	useEffect(() => {
-		// Só será executado no lado do cliente
 		setWindowWidth(window.innerWidth);
 
 		const links = document.querySelectorAll('li');
 		links.forEach(link => {
 			link.addEventListener('click', e => {
+				e;
 				setMenuIsOpen(false);
 			});
 		});

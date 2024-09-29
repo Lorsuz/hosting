@@ -33,8 +33,7 @@ const CustomHosting = () => {
 				</div>
 				<ul>
 					{Array.from({ length: 3 }).map((_, i) => {
-						return <Item key={i} title={t(`customHosting.cards.${i}.title`)} 
-						text={t(`customHosting.cards.${i}.paragraph`)}></Item>;
+						return <Item key={i} title={t(`customHosting.cards.${i}.title`)} text={t(`customHosting.cards.${i}.paragraph`)}></Item>;
 					})}
 				</ul>
 			</div>

@@ -18,7 +18,6 @@ export default function MapChart() {
 				scale: 125,
 				center: [0, 45]
 			}}
-			
 		>
 			<Geographies geography={features}>
 				{({ geographies }) =>

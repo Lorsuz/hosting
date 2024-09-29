@@ -12,6 +12,6 @@ const appRoutes = {
 	blog: '/blog',
 	cpanel: '/c-panel',
 	gameHost: '/game-host',
-	cloudVPS: '/cloud-vps',
+	cloudVPS: '/cloud-vps'
 };
 export default appRoutes;

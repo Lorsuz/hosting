@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
 import InputRadio from '@component/forms/fields/InputRadio';
-import {useState} from 'react';
+import { useState } from 'react';
 interface NewCreditCardModalFormProps {}
 
 const NewCreditCardModalForm: React.FC<NewCreditCardModalFormProps> = () => {
@@ -101,8 +101,7 @@ const NewCreditCardModalForm: React.FC<NewCreditCardModalFormProps> = () => {
 					<input type='radio' name='' id='terms' />
 					<label htmlFor='terms'></label>
 				</div>
-				<InputRadio id='terms' name='terms' checked={selectedOption === 'terms'} 
-        onChange={() => setSelectedOption('terms')}>
+				<InputRadio id='terms' name='terms' checked={selectedOption === 'terms'} onChange={() => setSelectedOption('terms')}>
 					I agree to the <span style={{ color: '#00ff38' }}>Terms of Service</span>
 				</InputRadio>
 			</fieldset>

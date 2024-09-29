@@ -151,12 +151,12 @@ const StyledComponent = styled.section`
 			}
 		}
 		@media (max-width: 600px) {
-			article h1{
+			article h1 {
 				font-size: 24px;
 			}
 		}
 		@media (max-width: 400px) {
-			article h1{
+			article h1 {
 				font-size: 20px;
 			}
 		}

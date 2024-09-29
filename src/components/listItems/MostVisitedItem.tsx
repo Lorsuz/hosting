@@ -30,8 +30,8 @@ const StyledComponent = styled.li`
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-		border-top: 1px solid #0C1A11;
-		border-bottom: 1px solid #0C1A11;
+		border-top: 1px solid #0c1a11;
+		border-bottom: 1px solid #0c1a11;
 		padding: 15px;
 
 		.text {

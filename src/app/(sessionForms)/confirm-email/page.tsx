@@ -1,4 +1,4 @@
-'use client'
+'use client';
 import React from 'react';
 import InputText from '@component/forms/fields/InputText';
 import FormAccountButton from '@component/buttons/FormAccountButton';
@@ -15,7 +15,6 @@ const page = () => {
 			<Link href={appRoutes.signUp} className='forgot-password'>
 				Don&apos;t have an account yet? <span>Sign up</span>
 			</Link>
-			
 		</form>
 	);
 };

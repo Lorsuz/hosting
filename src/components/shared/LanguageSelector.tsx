@@ -87,7 +87,6 @@ const StyledWrapper = styled.div`
 				width: 5px;
 				border-radius: 50%;
 				background: #383838;
-
 			}
 			&:hover {
 				color: #00ff1a;

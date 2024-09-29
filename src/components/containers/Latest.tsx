@@ -119,8 +119,6 @@ const StyledComponent = styled.section`
 			flex-wrap: wrap;
 			gap: 30px;
 		}
-
-		
 	}
 `;
 export default Latest;

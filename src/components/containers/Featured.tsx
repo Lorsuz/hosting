@@ -35,11 +35,11 @@ const StyledComponent = styled.section`
 		.most-visited {
 			grid-column: 8/13;
 		}
-		@media (max-width: 1000px) {	
+		@media (max-width: 1000px) {
 			.blog-main-post,
-		.most-visited {
-			grid-column: 1/13;
-		}
+			.most-visited {
+				grid-column: 1/13;
+			}
 		}
 	}
 `;

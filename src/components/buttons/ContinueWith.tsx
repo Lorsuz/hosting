@@ -37,7 +37,10 @@ const StyledComponent = styled.div`
 		flex-shrink: 0;
 		font-size: 12px;
 		font-weight: 400;
-		background: #dedede; &:hover { background: #D3D2D2; }
+		background: #dedede;
+		&:hover {
+			background: #d3d2d2;
+		}
 		box-shadow: 0px 0px 25px 0px rgba(0, 255, 25, 0.05);
 
 		img {

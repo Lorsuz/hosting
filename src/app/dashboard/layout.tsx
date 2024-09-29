@@ -86,21 +86,20 @@ const StyledComponent = styled.main`
 					display: flex;
 					align-items: center;
 					justify-content: center;
-					padding: 30px 10px ;
+					padding: 30px 10px;
 
 					svg {
 						font-size: 2.5rem;
 						opacity: 0.25;
 					}
-					&:first-child{
+					&:first-child {
 						padding-top: 0;
 					}
-					&:last-child{
-						padding-bottom: 0; 
+					&:last-child {
+						padding-bottom: 0;
 					}
 					&:not(:last-child) {
 						border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
 					}
 				}
 			}

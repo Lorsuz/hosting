@@ -1,7 +1,5 @@
 {
-	"conventionalCommits.scopes": [
-		"Commit"
-	],
+	"conventionalCommits.scopes": ["Commit"],
 	"files.associations": {
 		"*.js": "javascript",
 		"*.tsx": "typescriptreact",

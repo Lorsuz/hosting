@@ -5,7 +5,7 @@ import ReqResFAQ from '@component/shared/ReqResFAQ';
 import { useTranslation } from 'react-i18next';
 
 const Fap = () => {
-	const {t} = useTranslation();
+	const { t } = useTranslation();
 	return (
 		<StyledComponent className='wrapper'>
 			<div className='container'>
@@ -64,7 +64,7 @@ const StyledComponent = styled.section`
 		}
 		nav {
 			display: flex;
-			flex-wrap:wrap;
+			flex-wrap: wrap;
 			gap: 20px;
 			margin-bottom: 40px;
 			ul {
@@ -108,13 +108,13 @@ const StyledComponent = styled.section`
 				border-radius: 38.168px;
 				background: #0c1a11;
 				border: 1px solid #2f2f2f;
-				margin: 0 auto	;
+				margin: 0 auto;
 
 				padding: 10px 20px;
 				gap: 10px;
 				input {
 					flex-grow: 1;
-				 -moz-appearance: none;
+					-moz-appearance: none;
 				}
 				button {
 					font-size: 1.1rem;

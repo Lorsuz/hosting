@@ -4,7 +4,6 @@ const nextConfig = {};
 import * as sass from 'sass';
 import path from 'path';
 
-
 export default {
 	images: {
 		remotePatterns: [
@@ -12,13 +11,13 @@ export default {
 				protocol: 'https',
 				hostname: 'source.unsplash.com',
 				port: '',
-				pathname: '/random/**',
-			},
-		],
+				pathname: '/random/**'
+			}
+		]
 	},
 	...nextConfig,
 	sassOptions: {
-		includePaths: [ path.resolve(process.cwd(), 'public', 'styles' ) ],
+		includePaths: [path.resolve(process.cwd(), 'public', 'styles')],
 		implementation: sass
 	}
 };

@@ -13,9 +13,7 @@ const ReqResFAQ = () => {
 		<StyledComponent>
 			<div className='req' onClick={handleToggle}>
 				<p>What is VPS (Virtual Private Server) hosting and why do I need it for my website?</p>
-				<button className={`icon ${isOpen && 'active'}`}>
-					{isOpen ? <VscDash></VscDash> : <FaPlus></FaPlus>}
-				</button>
+				<button className={`icon ${isOpen && 'active'}`}>{isOpen ? <VscDash></VscDash> : <FaPlus></FaPlus>}</button>
 			</div>
 			{isOpen && (
 				<div className='res'>

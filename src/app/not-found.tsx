@@ -43,14 +43,12 @@ const StyledComponent = styled.section`
 		font-weight: 100;
 		text-align: center;
 		font-family: serif;
-		
-		
 	}
 	h2 {
 		font-size: 2rem;
 		margin-bottom: 10px;
 		text-align: center;
-		
+
 		color: var(--green-color);
 	}
 
@@ -59,17 +57,15 @@ const StyledComponent = styled.section`
 		margin-bottom: 10px;
 		color: #a7a7a7;
 		text-align: center;
-
 	}
-	.img{
+	.img {
 		max-width: 800px;
-		img{
+		img {
 			width: 100%;
 			height: 100%;
-			object-fit: scale-down;	
+			object-fit: scale-down;
 		}
 	}
-
 
 	a {
 		font-size: 1.2rem;
@@ -81,7 +77,6 @@ const StyledComponent = styled.section`
 		transition: background-color 0.3s ease;
 		display: block;
 		border: 1px solid var(--green-color);
-
 
 		&:hover {
 			color: var(--white-color);

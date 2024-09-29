@@ -1,21 +1,16 @@
 'use client';
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import CartPopUp from '@component/cart/CartPopUp';
 import { IoReturnUpBack } from 'react-icons/io5';
 import Link from 'next/link';
-import NewCreditCardModalForm from '@component/modal/NewCreditCardModalForm'
+import NewCreditCardModalForm from '@component/modal/NewCreditCardModalForm';
 
 const page = () => {
-	const [modalIsOpen, setModalIsOpen] = useState(false)
+	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<StyledComponent>
-			{
-				modalIsOpen && 
-				(
-					<NewCreditCardModalForm/>
-				)
-			}
+			{modalIsOpen && <NewCreditCardModalForm />}
 			<section className='wrapper'>
 				<div className='container wrapper'>
 					<div className='back'>
@@ -32,11 +27,13 @@ const page = () => {
 							<li>Ending in ...9999</li>
 							<li>Pix</li>
 						</ul>
-						<button onClick={
-							()=>{
-								setModalIsOpen(true)
-							}
-						}>Edit new card</button>
+						<button
+							onClick={() => {
+								setModalIsOpen(true);
+							}}
+						>
+							Edit new card
+						</button>
 					</div>
 					<div className='items'>
 						<CartPopUp buttonText='Pay now' hasForm={true}></CartPopUp>
@@ -65,10 +62,10 @@ const StyledComponent = styled.main`
 					/* border: 1px solid #0b1a0e; */
 					svg,
 					svg * {
-						font-size:30px;
+						font-size: 30px;
 						/* color: #000; */
 					}
-					span{
+					span {
 						/* color: #000; */
 						/* font-weight: 900; */
 					}

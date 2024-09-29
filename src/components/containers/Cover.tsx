@@ -91,24 +91,22 @@ const StyledComponent = styled.section`
 			}
 			.right {
 				grid-column: 1 / 13;
-				h1{
+				h1 {
 					font-size: 50px;
 				}
-				p{
+				p {
 					font-size: 18px;
-
 				}
 			}
 		}
 		@media (max-width: 480px) {
 			.right {
 				grid-column: 1 / 13;
-				h1{
+				h1 {
 					font-size: 32px;
 				}
-				p{
+				p {
 					font-size: 14px;
-
 				}
 			}
 		}
