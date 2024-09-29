@@ -1,0 +1,59 @@
+{
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": [
+		"@typescript-eslint"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:prettier/recommended",
+		"next/core-web-vitals"
+	],
+	"ignorePatterns": [
+		"*.js",
+		"*.jsx",
+		"*.mjs"
+	],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"rules": {
+		"@typescript-eslint/no-explicit-any": "warn",
+		"eslint-plugin-import/no-anonymous-default-export": "warn",
+		"eslint-plugin-import/no-cycle": "warn",
+		"eslint-plugin-import/no-deprecated": "warn",
+		"eslint-plugin-import/no-duplicates": "warn",
+		"eslint-plugin-import/no-dynamic-require": "warn",
+		"eslint-plugin-import/no-internal-modules": "warn",
+		"eslint-plugin-import/no-named-as-default": "warn",
+		"eslint-plugin-import/no-named-as-default-member": "warn",
+		"eslint-plugin-import/no-named-default": "warn",
+		"eslint-plugin-import/no-relative-parent-imports": "warn",
+		"eslint-plugin-import/no-self-import": "warn",
+		"eslint-plugin-import/no-unassigned-import": "warn",
+		"eslint-plugin-import/no-unused-modules": "warn",
+		"eslint-plugin-import/no-useless-path-segments": "warn",
+		"eslint-plugin-import/no-webpack-loader-syntax": "warn",
+		"react/display-name": "warn",
+		"react/jsx-no-script-url": "warn",
+		"react/jsx-no-target-blank": "warn",
+		"react/no-array-index-key": "warn",
+		"react/no-children-prop": "warn",
+		"react/no-danger": "warn",
+		"react/no-danger-with-children": "warn",
+		"react/no-deprecated": "warn",
+		"react/no-direct-mutation-state": "warn",
+		"react/no-redundant-should-component-update": "warn",
+		"react/no-this-in-sfc": "warn",
+		"react/no-typos": "warn",
+		"react/no-unescaped-entities": "warn",
+		"react/no-unsafe": "warn",
+		"react/prop-types": "warn",
+		"react/react-in-jsx-scope": "warn",
+		"reportUnusedDisableDirectives": true
+	}
+}

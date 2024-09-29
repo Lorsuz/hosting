@@ -1,0 +1,71 @@
+{
+	"Create a new React Page": {
+		"prefix": "nrp",
+		"body": [
+			"'use client';",
+			"import React from 'react';",
+			"import styled from 'styled-components';",
+			"",
+			"const ${1:${TM_FILENAME_BASE}} = () => {",
+			"  return (",
+			"    <StyledComponent>",
+			"        $2",
+			"    </StyledComponent>",
+			"  );",
+			"};",
+			"const StyledComponent = styled.main`",
+			"`;",
+			"export default ${1:${TM_FILENAME_BASE}};"
+		],
+		"description": "Create a new Page",
+		"scope": "typescriptreact"
+	},
+	"Create a new React Section": {
+		"prefix": "nrs",
+		"body": [
+			"import React from 'react';",
+			"import styled from 'styled-components';",
+			"",
+			"interface ${1:${TM_FILENAME_BASE}}Props {}",
+			"",
+			"const ${1:${TM_FILENAME_BASE}}:React.FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
+			"  return (",
+			"    <StyledComponent className='wrapper'>",
+			"      <div className='container'>",
+			"        $2",
+			"      </div>",
+			"    </StyledComponent>",
+			"  );",
+			"};",
+			"const StyledComponent = styled.section`",
+			"  .container{",
+			"  }",
+			"`;",
+			"export default ${1:${TM_FILENAME_BASE}};"
+		],
+		"description": "Create a new Section",
+		"scope": "typescriptreact"
+	},
+	"Create a new React Component": {
+		"prefix": "nrc",
+		"body": [
+			"import React from 'react';",
+			"import styled from 'styled-components';",
+			"",
+			"interface ${1:${TM_FILENAME_BASE}}Props {}",
+			"",
+			"const ${1:${TM_FILENAME_BASE}}: React.FC<${1:${TM_FILENAME_BASE}}Props> = () => {",
+			"  return (",
+			"    <StyledComponent>",
+			"        $2",
+			"    </StyledComponent>",
+			"  );",
+			"};",
+			"const StyledComponent = styled.div`",
+			"`;",
+			"export default ${1:${TM_FILENAME_BASE}};"
+		],
+		"description": "Create a new Component",
+		"scope": "typescriptreact"
+	}
+}

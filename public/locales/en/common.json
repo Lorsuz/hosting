@@ -1,0 +1,177 @@
+{
+	"dictionary": {
+		"brazil": "Brazil",
+		"general": "General",
+		"germany": "Germany",
+		"join": "Join",
+		"joinNow": "Join Now",
+		"login": "Login",
+		"malaysia": "Malaysia",
+		"month": "month",
+		"or": "or",
+		"startInMinutes": "Start in minutes",
+		"password": "Password",
+		"players": "Players",
+		"readNow": "Read Now",
+		"settings": "Settings",
+		"signIn": "Sign In",
+		"signUp": "Sign Up",
+		"ukraine": "Ukraine",
+		"viewMore": "View More",
+		"desiredSpace": "Desired space",
+		"takeIt": "Take it!",
+		"getStarted": "Get started now"
+	},
+	"SignUp": {
+		"title": "Sign up",
+		"message": "Enlist now and access premium hosting solutions tailored for gaming, websites, and enterprise giants.",
+		"terms": "I agree to the Terms of Service and the Privacy Policy",
+		"google": "Sign up with Google",
+		"github": "Sign up with Google",
+		"forgot": "Forgot your password?",
+		"code": "Code",
+		"toggleForm": "Already have an account? ",
+		"send": "Send"
+	},
+	"SignIn": {
+		"title": "Sign in",
+		"message": "Sign in securely to your hosting platform and get started.",
+		"google": "Sign in with Google",
+		"github": "Sign in with Google",
+		"forgot": "Forgot your password?",
+		"toggleForm": "Don't have an account yet? "
+	},
+	"confirmEmail": {
+		"title": "Confirm email",
+		"message": "Check your inbox to confirm."
+	},
+	"resetPassword": {
+		"title": "Reset password",
+		"message": "Rest assured we're here to help!",
+		"input": "Email address"
+	},
+	"cover": {
+		"title": "Start hosting <br/> <span>confidently</span> today!",
+		"paragraph": "Connect to a worldwide web of IPs seamlessly. Customize your hosting journey with pinpoint targeting by country.",
+		"coverTerms": "By signing up you agree to the <span>{{serviceTerms}}</span> and the <span>{{pvTerms}}</span>.",
+		"serviceTerms": "Terms of Service",
+		"pvTerms": "Privacy Policy"
+	},
+	"premierVPS": [
+		{
+			"subtitle": "Elevate your online venture with",
+			"paragraph": "Discover the ultimate VPS hosting solution for your online ventures! Our feature-rich VPS services guarantee unparalleled performance, rock-solid security, and seamless scalability. Perfect for businesses, bloggers, e-commerce sites, and developers. Elevate your online presence with our cutting-edge VPS hosting today!"
+		},
+		{
+			"subtitle": "Best lag-free & reliable servers",
+			"paragraph": "Level up your gaming experience with our premium game hosting service! Enjoy lag-free performance, unparalleled reliability, and 24/7 support. Dominate the competition with our powerful servers tailored for gamers. Join the ranks of satisfied gamers and start your adventure today!"
+		},
+		{
+			"subtitle": "Unleash your website's potential with",
+			"paragraph": "Simplify website management with our top-notch cPanel hosting service! Enjoy intuitive control, seamless performance, and round-the-clock support. Take charge of your online presence with cPanel's powerful features. Start managing your website effortlessly today!"
+		}
+	],
+	"blog": {
+		"hosting": "Custom Hosting",
+		"paragraph": "Your Go-To Resource for Hosting Queries - Get Answers Fast!",
+		"button": "Get Started"
+	},
+	"faq": {
+		"paragraph": "Your Go-To Resource for Hosting Queries - Get Answers Fast!"
+	},
+	"customPlans": {
+		"title": "Custom your plan",
+		"recommended": "Recommended package for large"
+	},
+	"customHosting": {
+		"title": "Custom Hosting for all your needs",
+		"paragraph": "Whether you're looking to boost your website, manage web applications, or provide an immersive gaming experience, our hosting platform is designed to meet your unique demands.",
+		"cards": [
+			{
+				"title": "Flexibility and Control",
+				"paragraph": "Have complete control over your hosting environment with dedicated resources and configuration flexibility."
+			},
+			{
+				"title": "Simple Management",
+				"paragraph": " Easily manage your websites, databases, and hosting resources with an intuitive interface."
+			},
+			{
+				"title": "Enhanced Security",
+				"paragraph": " Keep your servers protected against online threats with advanced security measures, including DDoS protection."
+			}
+		]
+	},
+	"map": {
+		"title": "Explore our <span>locations</span> around the world in <span>seconds</span>",
+		"paragraph": "Join on a virtual journey around the globe and discover our extensive network of locations with just a click"
+	},
+	"cardPrices": {
+		"paragraph": "Unlock unparalleled control and flexibility with our VPS hosting solutions"
+	},
+	"cloudVPS": {
+		"cover": {
+			"paragraph": "Discover the ultimate VPS hosting solution for your online ventures! Our feature-rich VPS services guarantee unparalleled performance, rock-solid security, and seamless scalability."
+		},
+		"cardPrices": {
+			"title": "With our Cloud VPS, enjoy superior performance and security",
+			"paragraph": "Learn about our top-notch Cloud VPS options. incredibly quick, safe, and adaptable to your specific hosting requirements. "
+		},
+		"premierVPS": [
+			{
+				"title": "Our server, your business",
+				"paragraph": "With our premium Cloud VPS services, you may grow your company to new heights. Gain unparalleled scalability and lightning-fast performance to support your expansion. With our strong safeguards, you can be sure that your data is secure."
+			},
+			{
+				"title": "Why [Name]'s VPS?",
+				"paragraph": "Choosing our VPS means getting exceptional performance, flexibility, and security. It's the perfect hosting solution for you, with lightning-fast speeds, effortless scalability, and unrivaled data security. Make the wise option today!"
+			},
+			{
+				"paragraph": "In a matter of minutes, you'll have complete control over your hosting. Our Cloud VPS service allows you to set up your virtual server quickly and easily. With lightning-fast deployment, scalable resources, and consistent performance, your online projects can be up and running in no time."
+			}
+		]
+	},
+	"gameHosting": {
+		"cover": {
+			"paragraph": "Your doorway to unmatched scalability and performance in the online world. Our Cloud VPS provides dependable and adaptable support for your digital adventure, with lightning-fast speeds and unwavering security."
+		},
+		"cardPrices": {
+			"title": "Browse Our Elite Game Hosting Solutions",
+			"paragraph": "Examine our top-notch game hosting offering incredibly quick, safe, and completely adaptable to your gameplay requirements."
+		},
+		"premierVPS": [
+			{
+				"title": "Best lag-free & reliable servers",
+				"paragraph": "Level up your gaming experience with our premium game hosting service! Enjoy lag-free performance, unparalleled reliability, and 24/7 support. Dominate the competition with our powerful servers tailored for gamers. Join the ranks of satisfied gamers and start your adventure today!"
+			},
+			{
+				"title": "Why [Name]'s Game Hosting?",
+				"paragraph": "It's the ideal option for hosting your gaming servers because of its great data protection, smooth scalability, and lightning-fast speeds. Join us today to enhance your gaming experience!"
+			},
+			{
+				"paragraph": "In minutes, you'll be immersed in the world of gaming. Using our Game Hosting service, you can quickly and easily deploy your game server. Enjoy lightning-fast setup, secure hosting, and completely configurable options in only a few minutes of getting started. Dive right into your favorite games and enjoy the thrill of immediate deployment."
+			}
+		]
+	},
+	"cpanel": {
+		"cover": {
+			"paragraph": "Using our cPanel Hosting, administer websites more easily. Take advantage of simple controls over your internet visibility, strong security, and round-the-clock assistance."
+		},
+		"cardPrices": {
+			"title": "Experience hassle-free website administration with our cPanel Hosting",
+			"paragraph": "Examine our top-notch cPanel hosting offering. incredibly quick, safe, and completely adaptable to your website's requirements. Boost your internet visibility right now."
+		},
+		"premierVPS": [
+			{
+				"title": "Unleash your website's potential",
+				"paragraph": "Simplify website management with our top-notch cPanel hosting service! Enjoy intuitive control, seamless performance, and round-the-clock support. Take charge of your online presence with cPanel's powerful features. Start managing your website effortlessly today!"
+			},
+			{
+				"title": "Why [Name]'s Game Hosting?",
+				"paragraph": "Unmatched dependability, security, and ease of use characterize our cPanel service. It's the ideal option for easily maintaining your website because of its user-friendly controls, dependable stability, and strong security measures. Take use of our cPanel service now to see the difference!"
+			},
+			{
+				"paragraph": "Enjoy website management like never before. With our cPanel Hosting yoou can set up your website in minutes. Experience lightning fast setup, straightforward controls, and powerful security within minutes of signing up."
+			}
+		]
+	}
+}

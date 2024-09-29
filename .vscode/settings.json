@@ -1,0 +1,11 @@
+{
+	"conventionalCommits.scopes": [
+		"Commit"
+	],
+	"files.associations": {
+		"*.js": "javascript",
+		"*.tsx": "typescriptreact",
+		"*.ts": "typescript",
+		"*.jsx": "javascriptreact"
+	}
+}

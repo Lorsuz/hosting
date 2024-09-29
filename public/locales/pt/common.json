@@ -1,0 +1,171 @@
+{
+	"dictionary": {
+		"brazil": "Brasil",	
+		"general": "Geral",
+		"germany": "Alemanha",
+		"join": "Entrar",
+		"joinNow": "Cadastre-se",
+		"login": "Login",
+		"malaysia": "Malásia",
+		"month": "mês",
+		"or": "ou",
+		"startInMinutes": "Comece em minutos",
+		"password": "Senha",
+		"players": "Jogadores",
+		"readNow": "Ler agora",
+		"settings": "configurações",
+		"signIn": "Sign In",
+		"signUp": "Criar conta",
+		"ukraine": "Ucrânia",
+		"viewMore": "Leia mais",
+		"desiredSpace": "Espaço desejado",
+		"takeIt": "Comece agora",
+		"getStarted": "Comece já"
+	},
+	"SignUp": {
+		"message": "Inscreva-se agora e acesse soluções de hospedagem premium personalizadas para jogos, sites e gigantes empresariais",
+		"terms": "Eu concordo com os Termos de Serviço e a Política de Privacidade",
+		"google": "Cadastre-se Google",
+		"github": "Sign up with Google",
+		"code": "Código",
+		"toggleForm": "já possui uma conta? ",
+		"send": "Entrar"
+	},
+	"SignIn": {
+		"message": "Inicie sessão de forma segura na sua plataforma de hospedagem e comece a trabalhar.",
+		"google": "Entre com Google",
+		"github": "Entre com Google",
+		"forgot": "Esqueceu sua senha?",
+		"toggleForm": "Ainda não tem uma conta? "
+	},
+	"confirmEmail": {
+		"title": "Confirmar e-mail ",
+		"message": "Verifique sua caixa de entrada para confirmar."
+	},
+	"resetPassword": {
+		"title": "Redefinir senha",
+		"message": "Fique tranquilo, estamos aqui para ajudar!",
+		"input": "Endereço de e-mail"
+	},
+	"cover": {
+		"title": "Comece hoje com sua <span>hospedagem</span> de confiança!",
+		"paragraph": "Ligue-se a uma rede mundial de IPs sem problemas. Personalize o seu percurso de hospedagem com uma seleção precisa por país.",
+		"password": "Senha",
+		"join": "Entrar",
+		"coverTerms": "Ao se cadastrar, você concorda com os <span>{{serviceTerms}}</span> e a <span>{{pvTerms}}</span>.",
+		"serviceTerms": "Termos de Serviço",
+		"pvTerms": "Política de Privacidade"
+	},
+	"premierVPS": [
+		{
+			"subtitle": "Eleve o nível de seu empreendimento on-line com ",
+			"paragraph": "Descubra a melhor solução de hospedagem VPS para seus empreendimentos on-line! Nossos serviços VPS repletos de recursos garantem desempenho inigualável, segurança sólida e escalabilidade perfeita. Perfeito para empresas, blogueiros, sites de comércio eletrônico e desenvolvedores. Eleve sua presença on-line com nossa hospedagem VPS de ponta hoje mesmo!"
+		},
+		{
+			"subtitle": "Os melhores servidores confiáveis e sem lag",
+			"paragraph": "Eleve o nível de sua experiência de jogo com nosso serviço premium de hospedagem de jogos! Aproveite o desempenho sem atrasos, a confiabilidade inigualável e o suporte 24 horas por dia, 7 dias por semana. Domine a concorrência com nossos poderosos servidores feitos sob medida para os jogadores. Junte-se ao grupo de jogadores satisfeitos e comece sua aventura hoje mesmo!"
+		},
+		{
+			"subtitle": "Aproveite o potencial do seu site com",
+			"paragraph": "Simplifique o gerenciamento de sites com o nosso serviço de hospedagem cPanel de alto nível! Aproveite o controle intuitivo, o desempenho perfeito e o suporte 24 horas por dia. Assuma o controle de sua presença on-line com os poderosos recursos do cPanel. Comece a gerenciar seu site sem esforço hoje mesmo!"
+		}
+	],
+	"faq": {
+		"paragraph": "Seu recurso ideal para consultas sobre hospedagem - obtenha respostas rápidas!"
+	},
+	"customPlans": {
+		"title": "Quaisquer perguntas relevantes para o plano",
+		"recommended": "Pacote recomendado..."
+	},
+	"customHosting": {
+		"title": "Hospedagem personalizada para as suas necessidades",
+		"paragraph": "Seja para impulsionar seu site, gerenciar aplicativos da Web ou oferecer uma experiência de jogo imersiva, nossa plataforma de hospedagem foi projetada para atender às suas demandas exclusivas.",
+		"cards": [
+			{
+				"title": "Flexibilidade e controle",
+				"paragraph": "Tenha controle total sobre seu ambiente de hospedagem com recursos dedicados e flexibilidade de configuração."
+			},
+			{
+				"title": "Gerenciamento simples",
+				"paragraph": " Gerencie facilmente seus sites, bancos de dados e recursos de hospedagem com uma interface intuitiva."
+			},
+			{
+				"title": "Segurança aprimorada",
+				"paragraph": " Mantenha seus servidores protegidos contra ameaças on-line com medidas de segurança avançadas, incluindo proteção contra DDoS."
+			}
+		]
+	},
+	"map": {
+		"title": "Explore nossos <span>locais</span> ao redor do mundo em <span>segundos</span>",
+		"paragraph": "Participe de uma viagem virtual ao redor do mundo e descubra nossa ampla rede de locais com apenas um clique"
+	},
+	"cardPrices": {
+		"paragraph": "Desbloqueie controle e flexibilidade inigualáveis com nossas soluções de hospedagem VPS"
+	},
+	"cloudVPS": {
+		"cover": {
+			"paragraph": "Discover the ultimate VPS hosting solution for your online ventures! Our feature-rich VPS services guarantee unparalleled performance, rock-solid security, and seamless scalability."
+		},
+		"cardPrices": {
+			"title": "With our Cloud VPS, enjoy superior performance and security",
+			"paragraph": "Learn about our top-notch Cloud VPS options. incredibly quick, safe, and adaptable to your specific hosting requirements. "
+		},
+		"premierVPS": [
+			{
+				"title": "Our server, your business",
+				"paragraph": "With our premium Cloud VPS services, you may grow your company to new heights. Gain unparalleled scalability and lightning-fast performance to support your expansion. With our strong safeguards, you can be sure that your data is secure."
+			},
+			{
+				"title": "Why [Name]'s VPS?",
+				"paragraph": "Choosing our VPS means getting exceptional performance, flexibility, and security. It's the perfect hosting solution for you, with lightning-fast speeds, effortless scalability, and unrivaled data security. Make the wise option today!"
+			},
+			{
+				"paragraph": "In a matter of minutes, you'll have complete control over your hosting. Our Cloud VPS service allows you to set up your virtual server quickly and easily. With lightning-fast deployment, scalable resources, and consistent performance, your online projects can be up and running in no time."
+			}
+		]
+	},
+	"gameHosting": {
+		"cover": {
+			"paragraph": "Your doorway to unmatched scalability and performance in the online world. Our Cloud VPS provides dependable and adaptable support for your digital adventure, with lightning-fast speeds and unwavering security."
+		},
+		"cardPrices": {
+			"title": "Browse Our Elite Game Hosting Solutions",
+			"paragraph": "Examine our top-notch game hosting offering incredibly quick, safe, and completely adaptable to your gameplay requirements."
+		},
+		"premierVPS": [
+			{
+				"title": "Best lag-free & reliable servers",
+				"paragraph": "Level up your gaming experience with our premium game hosting service! Enjoy lag-free performance, unparalleled reliability, and 24/7 support. Dominate the competition with our powerful servers tailored for gamers. Join the ranks of satisfied gamers and start your adventure today!"
+			},
+			{
+				"title": "Why [Name]'s Game Hosting?",
+				"paragraph": "It's the ideal option for hosting your gaming servers because of its great data protection, smooth scalability, and lightning-fast speeds. Join us today to enhance your gaming experience!"
+			},
+			{
+				"paragraph": "In minutes, you'll be immersed in the world of gaming. Using our Game Hosting service, you can quickly and easily deploy your game server. Enjoy lightning-fast setup, secure hosting, and completely configurable options in only a few minutes of getting started. Dive right into your favorite games and enjoy the thrill of immediate deployment."
+			}
+		]
+	},
+	"cpanel": {
+		"cover": {
+			"paragraph": "Usando nossa hospedagem cPanel, administre sites com mais facilidade. Aproveite os controles simples sobre a visibilidade da Internet, a segurança robusta e a assistência 24 horas por dia."
+		},
+		"cardPrices": {
+			"title": "Experimente a administração de sites sem complicações com nossa hospedagem cPanel",
+			"paragraph": "Examine nossa oferta de hospedagem cPanel de alto nível. Incrivelmente rápida, segura e totalmente adaptável aos requisitos do seu site. Aumente sua visibilidade na Internet agora mesmo."
+		},
+		"premierVPS": [
+			{
+				"title": "Potencialize o seu site",
+				"paragraph": "Simplifique o gerenciamento de sites com o nosso serviço de hospedagem cPanel de alto nível! Aproveite o controle intuitivo, o desempenho perfeito e o suporte 24 horas por dia. Assuma o controle de sua presença on-line com os poderosos recursos do cPanel. Comece a gerenciar seu site sem esforço hoje mesmo!"
+			},
+			{
+				"title": "Por que [Name]'s Game Hosting?",
+				"paragraph": "A confiabilidade, a segurança e a facilidade de uso inigualáveis caracterizam nosso serviço cPanel. É a opção ideal para manter facilmente o seu site, devido aos controles fáceis de usar, à estabilidade confiável e às fortes medidas de segurança. Use o nosso serviço cPanel agora e veja a diferença!"
+			},
+			{
+				"paragraph": "Aproveite o gerenciamento de sites como nunca antes. Com a nossa hospedagem cPanel, você pode configurar seu site em minutos. Experimente uma configuração extremamente rápida, controles diretos e segurança poderosa em poucos minutos após a assinatura."
+			}
+		]
+	}
+}
