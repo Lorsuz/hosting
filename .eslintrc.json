@@ -2,7 +2,15 @@
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"plugins": ["@typescript-eslint"],
-	"extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:react/recommended", "plugin:prettier/recommended", "next/core-web-vitals"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:prettier/recommended",
+		"next/core-web-vitals",
+		"plugin:import/errors",
+		"plugin:import/warnings"
+	],
 	"ignorePatterns": ["*.js", "*.jsx", "*.mjs"],
 	"settings": {
 		"react": {
@@ -13,6 +21,8 @@
 		"@typescript-eslint/no-explicit-any": 0,
 		"eslint-plugin-import/no-anonymous-default-export": 0,
 		"eslint-plugin-import/no-cycle": 0,
+		"import/no-useless-path-segments": "warn",
+		"import/no-webpack-loader-syntax": "warn",
 		"eslint-plugin-import/no-deprecated": 0,
 		"eslint-plugin-import/no-duplicates": 0,
 		"eslint-plugin-import/no-dynamic-require": 0,
