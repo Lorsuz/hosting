@@ -2,9 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
 import InputRadio from '@component/forms/fields/InputRadio';
+import {useState} from 'react';
 interface NewCreditCardModalFormProps {}
 
 const NewCreditCardModalForm: React.FC<NewCreditCardModalFormProps> = () => {
+	const [selectedOption, setSelectedOption] = useState<string>('terms');
 	return (
 		<StyledComponent>
 			<fieldset>
@@ -57,7 +59,7 @@ const NewCreditCardModalForm: React.FC<NewCreditCardModalFormProps> = () => {
 			<fieldset>
 				<legend>Choose Amount</legend>
 
-				<InputRadio id='credit' name='credit'>
+				<InputRadio id='credit' name='credit' checked={selectedOption === 'credit'} onChange={() => setSelectedOption('credit')}>
 					I just want to link my credit card <span style={{ fontWeight: '700' }}>-$0,00 deposit</span>
 				</InputRadio>
 				<div className='input-checkbox'>
@@ -99,7 +101,8 @@ const NewCreditCardModalForm: React.FC<NewCreditCardModalFormProps> = () => {
 					<input type='radio' name='' id='terms' />
 					<label htmlFor='terms'></label>
 				</div>
-				<InputRadio id='terms' name='terms'>
+				<InputRadio id='terms' name='terms' checked={selectedOption === 'terms'} 
+        onChange={() => setSelectedOption('terms')}>
 					I agree to the <span style={{ color: '#00ff38' }}>Terms of Service</span>
 				</InputRadio>
 			</fieldset>

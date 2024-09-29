@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {};
 
-import sass from 'sass';
+import * as sass from 'sass';
 import path from 'path';
 
 
