@@ -34,7 +34,7 @@
 		"eslint-plugin-import/no-named-default": "warn",
 		"eslint-plugin-import/no-relative-parent-imports": "warn",
 		"eslint-plugin-import/no-self-import": "warn",
-		"reportUnusedDisableDirectives": 1,
+		"reportUnusedDisableDirectives": 0,
 		"eslint-plugin-import/no-unassigned-import": "warn",
 		"eslint-plugin-import/no-unused-modules": "warn",
 		"eslint-plugin-import/no-useless-path-segments": "warn",
@@ -54,7 +54,6 @@
 		"react/no-unescaped-entities": "warn",
 		"react/no-unsafe": "warn",
 		"react/prop-types": "warn",
-		"react/react-in-jsx-scope": "warn",
-		"reportUnusedDisableDirectives": true
+		"react/react-in-jsx-scope": "warn"
 	}
 }

@@ -1,5 +1,4 @@
-export class Card
-{
+export class Card {
 	imageUrl: any;
 	onDismiss: any;
 	element: any;
@@ -15,15 +14,13 @@ export class Card
 	}: {
 		imageUrl: any,
 		onDismiss: any,
-	} )
-	{
+	} ) {
 		this.imageUrl = imageUrl;
 		this.onDismiss = onDismiss;
 		this.init();
 	}
 
-	isTouchDevice = () =>
-	{
+	isTouchDevice = () => {
 		return ( ( 'ontouchstart' in window ) ||
 			// @ts-ignore
 			( navigator.maxTouchPoints > 0 ) ||
@@ -31,8 +28,7 @@ export class Card
 			( navigator.msMaxTouchPoints > 0 ) );
 	};
 
-	init = () =>
-	{
+	init = () => {
 		const card = document.createElement( 'div' );
 		card.classList.add( 'card' );
 		card.innerHTML = `
@@ -45,19 +41,15 @@ export class Card
 			</ul>
 		`;
 		this.element = card;
-		if ( this.isTouchDevice() )
-		{
+		if ( this.isTouchDevice() ) {
 			this.listenToTouchEvents();
-		} else
-		{
+		} else {
 			this.listenToMouseEvents();
 		}
 	};
 
-	listenToTouchEvents = () =>
-	{
-		this.element.addEventListener( 'touchstart', ( e: TouchEvent ) =>
-		{
+	listenToTouchEvents = () => {
+		this.element.addEventListener( 'touchstart', ( e: TouchEvent ) => {
 			const touch = e.changedTouches[ 0 ];
 			if ( !touch ) return;
 			const { clientX, clientY } = touch;
@@ -71,10 +63,8 @@ export class Card
 		document.addEventListener( 'cancel', this.handleTouchEnd );
 	};
 
-	listenToMouseEvents = () =>
-	{
-		this.element.addEventListener( 'mousedown', ( e: { clientX: any; clientY: any; } ) =>
-		{
+	listenToMouseEvents = () => {
+		this.element.addEventListener( 'mousedown', ( e: { clientX: any; clientY: any; } ) => {
 			const { clientX, clientY } = e;
 			this.startPoint = { x: clientX, y: clientY };
 			document.addEventListener( 'mousemove', this.handleMouseMove );
@@ -84,44 +74,38 @@ export class Card
 		document.addEventListener( 'mouseup', this.handleMoveUp );
 
 		// prevent card from being dragged
-		this.element.addEventListener( 'dragstart', ( e: { preventDefault: () => void; } ) =>
-		{
+		this.element.addEventListener( 'dragstart', ( e: { preventDefault: () => void; } ) => {
 			e.preventDefault();
 		} );
 	};
 
-	handleMove = ( x: number, y: number ) =>
-	{
+	handleMove = ( x: number, y: number ) => {
 		this.offsetX = x - this.startPoint.x;
 		this.offsetY = y - this.startPoint.y;
 		const rotate = this.offsetX * 0.1;
 		this.element.style.transform = `translate(${ this.offsetX }px, ${ this.offsetY }px) rotate(${ rotate }deg)`;
 		// dismiss card
-		if ( Math.abs( this.offsetX ) > this.element.clientWidth * 0.7 )
-		{
+		if ( Math.abs( this.offsetX ) > this.element.clientWidth * 0.7 ) {
 			this.dismiss( this.offsetX > 0 ? 1 : -1 );
 		}
 	};
 
 	// mouse event handlers
-	handleMouseMove = ( e: { preventDefault?: any; clientX?: any; clientY?: any; } ) =>
-	{
+	handleMouseMove = ( e: { preventDefault?: any; clientX?: any; clientY?: any; } ) => {
 		e.preventDefault();
 		if ( !this.startPoint ) return;
 		const { clientX, clientY } = e;
 		this.handleMove( clientX, clientY );
 	};
 
-	handleMoveUp = () =>
-	{
+	handleMoveUp = () => {
 		this.startPoint = null;
 		document.removeEventListener( 'mousemove', this.handleMouseMove );
 		this.element.style.transform = '';
 	};
 
 	// touch event handlers
-	handleTouchMove = ( e: { changedTouches: any[]; } ) =>
-	{
+	handleTouchMove = ( e: { changedTouches: any[]; } ) => {
 		if ( !this.startPoint ) return;
 		const touch = e.changedTouches[ 0 ];
 		if ( !touch ) return;
@@ -129,16 +113,14 @@ export class Card
 		this.handleMove( clientX, clientY );
 	};
 
-	handleTouchEnd = () =>
-	{
+	handleTouchEnd = () => {
 		this.startPoint = null;
 		// @ts-ignore
 		document.removeEventListener( 'touchmove', this.handleTouchMove );
 		this.element.style.transform = '';
 	};
 
-	dismiss = ( direction: number ) =>
-	{
+	dismiss = ( direction: number ) => {
 		this.startPoint = null;
 		document.removeEventListener( 'mouseup', this.handleMoveUp );
 		document.removeEventListener( 'mousemove', this.handleMouseMove );
@@ -148,12 +130,10 @@ export class Card
 		this.element.style.transition = 'transform 1s';
 		this.element.style.transform = `translate(${ direction * window.innerWidth }px, ${ this.offsetY }px) rotate(${ 90 * direction }deg)`;
 		this.element.classList.add( 'dismissing' );
-		setTimeout( () =>
-		{
+		setTimeout( () => {
 			this.element.remove();
 		}, 1000 );
-		if ( typeof this.onDismiss === 'function' )
-		{
+		if ( typeof this.onDismiss === 'function' ) {
 			this.onDismiss();
 		}
 	};

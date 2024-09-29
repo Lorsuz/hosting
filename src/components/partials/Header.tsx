@@ -12,23 +12,25 @@ import { RxHamburgerMenu } from 'react-icons/rx';
 
 const Header = () => {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
-	const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+	const [windowWidth, setWindowWidth] = useState<number | null>(null);
 
 	useEffect(() => {
+		// Só será executado no lado do cliente
+		setWindowWidth(window.innerWidth);
+
 		const links = document.querySelectorAll('li');
 		links.forEach(link => {
 			link.addEventListener('click', e => {
 				setMenuIsOpen(false);
 			});
 		});
+
 		const handleResize = () => {
 			setWindowWidth(window.innerWidth);
 			setMenuIsOpen(false);
 		};
 
 		window.addEventListener('resize', handleResize);
-
-		handleResize();
 
 		return () => {
 			window.removeEventListener('resize', handleResize);
@@ -42,7 +44,7 @@ const Header = () => {
 					<Image src={LogoNavBar} alt='Logo Hosting' />
 				</div>
 				<button onClick={() => setMenuIsOpen(!menuIsOpen)} className='hamburger'>
-					<RxHamburgerMenu></RxHamburgerMenu>
+					<RxHamburgerMenu />
 				</button>
 				{menuIsOpen && (
 					<nav className='mobile-menu'>
