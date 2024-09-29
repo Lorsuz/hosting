@@ -47,7 +47,7 @@ const Latest = () => {
 				</nav>
 				<ul>
 					{Array.from({ length: 8 }).map((_, index) => (
-						<BlogCard image={randomImages[index % randomImages.length]}></BlogCard>
+						<BlogCard key={index} image={randomImages[index % randomImages.length]}></BlogCard>
 					))}
 				</ul>
 				<HrBlog text='Load more' align='end' width='90'></HrBlog>

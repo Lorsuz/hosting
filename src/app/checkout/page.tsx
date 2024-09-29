@@ -6,7 +6,7 @@ import { IoReturnUpBack } from 'react-icons/io5';
 import Link from 'next/link';
 import NewCreditCardModalForm from '@component/modal/NewCreditCardModalForm';
 
-const page = () => {
+const Page = () => {
 	const [modalIsOpen, setModalIsOpen] = useState(false);
 	return (
 		<StyledComponent>
@@ -161,4 +161,4 @@ const StyledComponent = styled.main`
 		}
 	}
 `;
-export default page;
+export default Page;
