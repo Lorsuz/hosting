@@ -22,6 +22,7 @@
 		"eslint-plugin-import/no-anonymous-default-export": 0,
 		"eslint-plugin-import/no-cycle": 0,
 		"import/no-useless-path-segments": "warn",
+		"@typescript-eslint/no-unused-vars":"off",
 		"import/no-webpack-loader-syntax": "warn",
 		"eslint-plugin-import/no-deprecated": 0,
 		"eslint-plugin-import/no-duplicates": 0,

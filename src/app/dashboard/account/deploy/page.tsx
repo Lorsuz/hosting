@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import styled from 'styled-components';
-import { FaShoppingBag } from 'react-icons/fa';
+import { FaShoppingBag, FaPlus } from 'react-icons/fa';
 import { MdUpload } from 'react-icons/md';
 import CartPopUp from '@component/cart/CartPopUp';
 import brazil from '@image/site/Brazil.png';
@@ -9,9 +9,9 @@ import ukraine from '@image/site/ukraine.png';
 import germany from '@image/site/germany.png';
 import malaysia from '@image/site/malaysia.png';
 import { RiArrowDropDownLine } from 'react-icons/ri';
-import { FaPlus } from 'react-icons/fa';
 import Image from 'next/image';
-const page = () => {
+import { PageProps } from '../../../../../.next/types/app/(site)/(services)/cloud-vps/page';
+const Page = () => {
 	const [menuIsOpen, setMenuIsOpen] = React.useState(false);
 	return (
 		<StyledComponent>
@@ -359,4 +359,4 @@ const StyledComponent = styled.article`
 		}
 	}
 `;
-export default page;
+export default Page;

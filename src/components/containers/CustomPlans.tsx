@@ -16,7 +16,7 @@ const CustomPlans = () => {
 		setSpaceCount(newSpaceCount);
 	};
 	useEffect(() => {
-		var buttons = document.querySelectorAll('.select-plan button');
+		const buttons = document.querySelectorAll('.select-plan button');
 		buttons.forEach(button => {
 			button.addEventListener('click', function (this: any) {
 				buttons.forEach(button => button.classList.remove('active'));
