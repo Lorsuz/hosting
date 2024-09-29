@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Image from 'next/image';
-import Star from '@image/site/star.png';
+import Star from '@image/site/Star.png';
 import GameCastel from '@image/site/game-castle-logo.png';
 import { useTranslation } from 'react-i18next';
 
