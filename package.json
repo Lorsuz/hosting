@@ -14,9 +14,7 @@
 		"format:p": "prettier --write ."
 	},
 	"dependencies": {
-		"@types/i18next": "^13.0.0",
 		"@types/react-html-parser": "^2.0.6",
-		"@types/react-i18next": "^8.1.0",
 		"@types/react-simple-maps": "^3.0.4",
 		"framer-motion": "^11.1.7",
 		"i18next": "^23.11.2",
